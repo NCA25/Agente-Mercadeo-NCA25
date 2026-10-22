@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agente de Mercadeo y Ventas</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+  <h1>Agente de Mercadeo y Ventas</h1>
+  <div class="tools">
+    <button id="btnKey">API key</button>
+    <button id="btnHtml">Descargar HTML</button>
+    <button id="btnPdf">Guardar PDF</button>
+    <button id="btnClear">Nueva charla</button>
+  </div>
+</header>
+<main id="chat" aria-live="polite"></main>
+<div class="chips" id="chips"></div>
+<footer>
+  <textarea id="input" rows="2" placeholder="Escribe tu consulta, Nicolas... (Enter envía, Shift+Enter salto de línea)"></textarea>
+  <button id="btnSend">Enviar</button>
+</footer>
+<script src="js/config.js"></script>
+<script src="js/prompt.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
